@@ -3,15 +3,14 @@
     "allow": [
       "Bash(git commit:*)",
       "WebSearch",
-      "mcp__github__search_repositories",
+      "mcp__github",
       "Bash(git add -A)",
-      "Bash(gh repo create claude_code_project_template --public --source=. --remote=origin --push)"
+      "Bash(git remote get-url origin)",
+      "Bash(gh repo create *)"
     ],
     "deny": [],
     "ask": []
   },
   "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": [
-    "github"
-  ]
+  "enabledMcpjsonServers": ["github"]
 }
