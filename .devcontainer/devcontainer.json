@@ -56,6 +56,6 @@
   },
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
   "workspaceFolder": "/workspace",
-  // "postCreateCommand": "sudo -E /usr/local/bin/init-firewall.sh && /usr/local/bin/setup-claude-router-config.sh" //disable firewall temporarily
-  "postCreateCommand": "/usr/local/bin/setup-claude-router-config.sh"
+  //Disable firewall and only run script setup-claude-router-config.sh as needed
+  "postCreateCommand": "sudo -E /usr/local/bin/init-firewall.sh && /usr/local/bin/setup-claude-router-config.sh"
 }
