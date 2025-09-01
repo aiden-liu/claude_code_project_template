@@ -12,5 +12,6 @@
     "ask": []
   },
   "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": ["github"]
+  "enabledMcpjsonServers": ["github"],
+  "includeCoAuthoredBy": true
 }
