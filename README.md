@@ -1,3 +1,9 @@
+This repo is archived, given [Claude Code Router](https://github.com/musistudio/claude-code-router) is becoming out of support, and new versions of [Claude Code](https://github.com/anthropics/claude-code) released.
+
+If you are using Databricks served model as backend LLM, feel free to see another template here.
+
+---
+
 # DevContainer & CLAUDE CODE Setup
 
 This repo is initiated from a template repository [claude_code_project_template](https://github.com/aiden-liu/claude_code_project_template), and below is the original README from the template repo.
